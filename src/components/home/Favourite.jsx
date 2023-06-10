@@ -93,14 +93,16 @@ const FavouriteContainer = styled.section`
       color: #fff;
       font-size: 4rem;
       font-weight: 700;
+      z-index: 500;
 
       @media (max-width: 780px) {
-        text-align: start;
-        font-size: 3.8rem;
+        text-align: center;
+        font-size: 6rem;
         line-height: 1;
       }
       @media (max-width: 580px) {
         font-size: 5rem !important;
+        text-align: start;
       }
     }
     p {

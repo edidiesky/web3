@@ -98,6 +98,8 @@ const FooterContainer = styled.div`
   padding: 5rem 0;
   padding-bottom: 4rem;
   position: relative;
+  background-color: var(--primary);
+
   a:hover {
     color: var(--green);
     text-decoration: underline;

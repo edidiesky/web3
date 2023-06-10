@@ -9,6 +9,7 @@ export default function App() {
   useEffect(() => {
     AOS.init({
       once: true,
+      duration: 6000,
     });
 
     const container = document.querySelector(".based");

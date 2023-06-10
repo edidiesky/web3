@@ -13,7 +13,7 @@ body {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
   color: #fff;
 }
 .gradient {
@@ -71,6 +71,8 @@ html {
 
 .btn:hover {
   opacity: 0.7;
+  background-color: var(--primary);
+  color: #fff;
 }
 .text-secondary {
   color: var(--yellow);
@@ -417,11 +419,11 @@ h1 {
 
 .w-85 {
   width: 80%;
-  max-width: 1290px;
+  max-width: 1260px;
 }
 .w-90 {
-  width: 85%;
-  max-width: 1290px;
+  width: 95%;
+  max-width: 1260px;
 }
 .w-100 {
   width: 100%;

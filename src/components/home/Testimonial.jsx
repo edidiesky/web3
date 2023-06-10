@@ -30,7 +30,7 @@ export default function About() {
         <div className="w-100 hidden">
           <h2
             className="fs-35 text-bold"
-            data-aos="fade-up"
+            data-aos="fade"
             data-aos-duration="1200"
             data-aos-delay="450"
           >
@@ -82,6 +82,7 @@ export default function About() {
 const AboutContent = styled.div`
   width: 100%;
   padding: 8rem 0;
+  background-color: var(--primary);
   .imageWrapper {
   }
   .flex1 {

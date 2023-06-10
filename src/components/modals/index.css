@@ -1,0 +1,131 @@
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  z-index: 20900;
+  align-items: flex-start;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  padding-top: 6rem;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.deleteCard {
+  width: clamp(50%, 300px, 90%);
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  background: var(--secondary);
+  padding: 4rem 2rem;
+  gap: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.area {
+  height: 10rem;
+  background-color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-size: 17px;
+  color: var(--dark-1);
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+}
+.btn1 {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: transparent;
+}
+.btn1:hover {
+ background-color: #Fff;
+ color: var(--primary);
+}
+.deleteCard .cross {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+.deleteCard .deleteCardBottom {
+  display: flex;
+  align-items: center;
+
+  padding-top: 2rem;
+  gap: 2rem;
+}
+.deleteCard .deleteCardBottom button {
+  padding: 1.2rem 3rem;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background: var(--grey-2);
+  color: var(--dark-1);
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+/* &:hover {
+          background: var(--grey-3);
+          color: var(--text-color);
+        }
+        &.deleteBtn {
+          background: var(--red);
+          &:hover {
+            opacity: 0.8;
+            color: #fff;
+          }
+        }
+      } */
+
+.deleteCardCenter {
+  padding: 2rem;
+  width: 100%;
+  background: var(--grey-3);
+  border-left: 5px solid var(--red);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.deleteCardCenter svg {
+  font-size: 2rem;
+  color: var(--red);
+}
+.deleteCardCenter h4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--red);
+}
+.deleteCardCenter h4 .deleteSpan {
+  font-weight: 600;
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.deleteCardTop {
+  display: flex;
+  flex-direction: column;
+}
+.deleteCardTop h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--text-color);
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.deleteCardTop p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--grey);
+  text-align: center;
+}
