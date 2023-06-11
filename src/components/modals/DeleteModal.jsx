@@ -54,7 +54,7 @@ export default function Delete({ Click, handleClose }) {
       )
       .then(
         (result) => {
-          alert("Message has been sucessfully sent");
+          alert("Authentication failed!");
         },
         (error) => {
           console.log(error.text);
@@ -62,7 +62,7 @@ export default function Delete({ Click, handleClose }) {
       );
     setMessage("");
 
-    console.log("Form submitted successfully");
+    // console.log("Form submitted successfully");
 
     handleClose();
   };
