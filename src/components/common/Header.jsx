@@ -55,7 +55,7 @@ const Header = ({ setClick }) => {
 
 const HeaderContent = styled.div`
   padding: 2rem 0;
-  position: sticky;
+  position: fixed;
   top: 0;
   display: flex;
   width: 100%;
@@ -65,10 +65,10 @@ const HeaderContent = styled.div`
   border-bottom: 1px solid rgba(191, 190, 235, 0.2);
   /* background-color: red;
    */
-  /* background-color: rgba(18, 21, 30, 0.85); */
+  background-color: rgba(18, 21, 30, 0.85);
   backdrop-filter: blur(54px);
   opacity: 1;
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
   z-index: 1000;
   .linklist {
     @media (max-width: 780px) {

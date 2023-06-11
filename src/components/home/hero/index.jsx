@@ -129,7 +129,8 @@ export default function Heroindex() {
 
 const HeroContainer = styled.section`
   width: 100%;
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background-color: rgba(18, 21, 30);
 
   .text1,
   .text2,
