@@ -133,7 +133,7 @@ const HeroContainer = styled.section`
   background-color: rgba(18, 21, 30);
   padding-top: 6rem;
   @media (max-width: 780px) {
-    padding-top: 3rem;
+    padding-top: 10rem;
   }
 
   .text1,
