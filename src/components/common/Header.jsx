@@ -24,7 +24,7 @@ const Header = ({ setClick }) => {
   return (
     <HeaderContent className="w-100 flex">
       <div className="w-90 auto flex item-center justify-space">
-        <div className="flex-1">
+        <div className="">
           <Link>
             <img
               src="https://assets.website-files.com/624b08d53d7ac60ccfc11d8d/624b08d53d7ac69575c11ded_Xverse_horizontal_mono_white%20(1).svg"
@@ -32,7 +32,7 @@ const Header = ({ setClick }) => {
             />
           </Link>
         </div>
-        <div className="flex-1 linklist flex item-center gap-4">
+        <div className="flex-1 linklist justify-center flex item-center gap-4">
           {list1.map((x, index) => {
             return (
               <Link
