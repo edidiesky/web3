@@ -76,7 +76,7 @@ const HeaderContent = styled.div`
     }
   }
   .btn {
-    @media (max-width: 780px) {
+    @media (max-width: 380px) {
       padding: 1rem 1.5rem;
       font-size: 1.5rem;
     }
