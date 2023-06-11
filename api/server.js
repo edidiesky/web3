@@ -11,16 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 const __dirname = path.resolve();
-// mongoose.connect(
-//   process.env.MONGO_URl,
-//   {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//   },
-//   () => {
-//     console.log("mongo has been connected");
-//   }
-// );
+
 // production mode process
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../dist")));

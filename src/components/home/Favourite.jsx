@@ -101,8 +101,10 @@ const FavouriteContainer = styled.section`
         line-height: 1;
       }
       @media (max-width: 580px) {
-        font-size: 5rem !important;
         text-align: start;
+      }
+      @media (max-width: 580px) {
+        font-size: 3.5rem !important;
       }
     }
     p {

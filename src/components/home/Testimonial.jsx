@@ -85,6 +85,11 @@ const AboutContent = styled.div`
   background-color: var(--primary);
   .imageWrapper {
   }
+  h2 {
+    @media (max-width: 580px) {
+      font-size: 3rem !important;
+    }
+  }
   .flex1 {
     display: flex;
     align-items: center;
@@ -99,7 +104,7 @@ const AboutContent = styled.div`
     line-height: 1.7;
     width: 86%;
     @media (max-width: 780px) {
-      font-size: 16px;
+      font-size: 14px !important;
     }
   }
   h4 {

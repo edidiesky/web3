@@ -75,6 +75,12 @@ const HeaderContent = styled.div`
       display: none;
     }
   }
+  .btn {
+    @media (max-width: 780px) {
+      padding: 1rem 1.5rem;
+      font-size: 1.5rem;
+    }
+  }
   .links {
     position: relative;
     &:hover {

@@ -140,6 +140,10 @@ const HeroContainer = styled.section`
     position: relative;
     width: 130%;
     height: 750px;
+    @media (max-width: 780px) {
+      height: 500px;
+      width: 100%;
+    }
     /* margin-top: -100px; */
     .image {
       /* position: absolute; */
@@ -247,11 +251,11 @@ const HeroContainer = styled.section`
 
         @media (max-width: 780px) {
           text-align: start;
-          font-size: 6rem;
+          font-size: 5rem;
           line-height: 1;
         }
         @media (max-width: 580px) {
-          font-size: 5rem !important;
+          font-size: 4.5rem !important;
           width: 90%;
         }
       }
@@ -264,7 +268,7 @@ const HeroContainer = styled.section`
         }
         @media (max-width: 580px) {
           width: 90%;
-          font-size: 20px;
+          font-size: 17px;
         }
       }
       .btn:hover {
@@ -285,10 +289,9 @@ const HeroContainer = styled.section`
         gap: 2rem;
         padding: 2rem 0;
         padding-top: 4.5rem;
-        @media (max-width: 380px) {
+        @media (max-width: 330px) {
           padding-top: 4rem;
-          flex-direction: column;
-          align-items: flex-start;
+          gap: 1rem;
         }
       }
 

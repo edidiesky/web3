@@ -123,7 +123,7 @@ const LearnContainer = styled.section`
         line-height: 1;
       }
       @media (max-width: 580px) {
-        font-size: 5rem !important;
+        font-size: 3.5rem !important;
       }
     }
     p {
